@@ -1,0 +1,108 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size:18px;
+}
+h1 {
+  margin-bottom: 0;
+  font-size:175%;
+  text-align:center;
+}
+
+h2{
+  margin:0px;
+  font-size:125%;
+}
+
+h2.title{
+  margin:0;
+  position:relative;
+  float:right;
+  border:1px solid black;
+}
+
+p.text{
+  margin:0;
+  clear:both;
+  padding:8%;
+  font-size:100%;
+  color:white;
+}
+
+.section {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+.row {
+  width: 100%;
+}
+
+h2.title-1{
+  background-color:#FF9700;
+}
+
+h2.title-2{
+  background-color:#FB00FF;
+}
+
+h2.title-3{
+  background-color:#73C6B6;
+  color:white;
+}
+
+.section-1{
+  background-color:#C8821A;
+}
+
+.section-2{
+  background-color:#FADBD8;
+}
+
+.section-3{
+  background-color:#82E0AA;
+}
+
+p.text-2{
+  color:black;
+}
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    border: 1px solid black;
+    margin:2%;
+    width: 29.33%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+    margin:2%;
+  }
+  .col-md-6 {
+    width: 46%;
+    height:96%;
+  }
+  .col-md-12 {
+    width: 96%;
+    height:96%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    border: 1px solid black;
+    margin:2%;
+    width: 96%;
+    height:96%;
+  }
+}
