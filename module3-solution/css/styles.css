@@ -18,6 +18,10 @@ body{
 .navbar-default, .navbar-collapse{
   background-color:#F5B041;
   margin:0;
+  border:1px solid black;
+}
+
+.navbar-default .navbar-collapse{
   border:0;
 }
 
@@ -25,14 +29,14 @@ body{
     background-color: #D5DBDB;
 }
 
+hr{
+  margin: 0;
+  border: 0;
+  border-top: 1px solid black;
+}
 #main-content .row div div p{
   padding:15px;
 }
-
-#chicken, #beef, #sushi {
-  background-color:blue;
-}
-
 
 #chicken{
   background-color:#DC7633;
